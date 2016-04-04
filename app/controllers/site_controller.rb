@@ -4,4 +4,8 @@ class SiteController < ApplicationController
 		render "index"
 	end
 
+	def showcase
+		render "showcase"
+	end
+
 end
