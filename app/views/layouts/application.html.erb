@@ -6,7 +6,20 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body style="padding-top: 70px;">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<a class="btn btn-default navbar-btn pull-right" href="/showcase" role="button">
+			Showcase
+		</a>
+		<a class="btn btn-default navbar-btn pull-right" href="/" role="button">
+			Home
+		</a>
+	</div>
+</nav>
+
+
 
 <%= yield %>
 
