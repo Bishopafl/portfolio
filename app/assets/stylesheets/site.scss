@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .gradient {
-	background: linear-gradient(to bottom right, yellow, red ); /* Standard syntax */
+	background: linear-gradient(to bottom right, #deb887, #f5f5dc ); /* Standard syntax */
 	margin-top: -20px;
 	margin-bottom: -20px;
 }
@@ -12,7 +12,7 @@
 	outline: 2px solid black;
 	box-shadow: 3px 3px 5px black;
 	margin-right: 20px;
-	background: linear-gradient(to bottom right, red, yellow); /* Standard syntax */
+	background: linear-gradient(to bottom right, #f5f5dc, #deb887); /* Standard syntax */
 }
 
 .profile-image {
@@ -34,6 +34,17 @@
 
 .bottom {
 	background-color: aqua;
-	height: 100%;
+	height: 100vh;
+
 }
 
+#success_message{ display: none;}
+
+.lang {
+	margin-top: 20px;
+}
+
+.show-button {
+	margin: auto;
+	text-align: center;
+}
