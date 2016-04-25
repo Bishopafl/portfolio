@@ -4,7 +4,8 @@
 .gradient {
 	background: linear-gradient(to bottom right, #deb887, #f5f5dc ); /* Standard syntax */
 	margin-top: -20px;
-	margin-bottom: -20px;
+	margin-bottom: -40px;
+	border-bottom: thick solid black;
 }
 
 
@@ -12,6 +13,7 @@
 	outline: 2px solid black;
 	box-shadow: 3px 3px 5px black;
 	margin-right: 20px;
+	margin-bottom: 60px;
 	background: linear-gradient(to bottom right, #f5f5dc, #deb887); /* Standard syntax */
 }
 
@@ -20,27 +22,24 @@
 	border-style: solid;
 	border-width: 5px;
 	border-radius: 5px;
-	margin-top: 10px;
+	margin-top: 30px;
 }
 
-.middle {
-	width: 100%;
-	height: 100%;
-	border-style: solid;
-	border-width: 20px;
-	box-shadow: 1px 1px 5px black;
-	margin-bottom: -20px;
+.showcase {
+	margin-top: 30px;
+	padding-bottom: 30px;
+	background: linear-gradient(to bottom right, white, #337AB7); /* Standard syntax */
 }
 
 .bottom {
-	background-color: #faebd7;
-	height: 100vh;
+	background-color: #337AB7;
+
 }
 
 #success_message{ display: none;}
 
 .lang {
-	margin-top: 10%;
+	
 }
 
 .show-button {
